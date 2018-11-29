@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>Cyber Youth Tech</title>
+		<link rel="shortcut icon" href="Logo_Transparent_Black.ico"/>
+        <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>  
+		<link rel="stylesheet" type="text/css" href="assets/fonts/fonts.min.css" />
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    </head>
+	<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+		
+		function plusDivs(n) {showDivs(slideIndex += n);}
+		
+		function currentDiv(n) {showDivs(slideIndex = n);}
+
+		function showDivs(n) {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("demo");
+			if (n > x.length) {slideIndex = 1}    
+			if (n < 1) {slideIndex = x.length}
+			for (i = 0; i < x.length; i++) {x[i].style.display = "none";  }
+		for (i = 0; i < dots.length; i++) {dots[i].className = dots[i].className.replace(" w3-white", "");
+		}
+  
+		x[slideIndex-1].style.display = "block";  
+		dots[slideIndex-1].className += " w3-white";
+}
+</script>
+	<body>
+	<div class="topnav">
+		<div class="topnav-left">
+			<a id="logo-name" href="index.html"> CYTECH </a>
+		</div>
+		<div class="topnav-right">
+			<a href="about.html"> About </a>
+			<a href="chapters.html"> Chapters </a>
+			<a href="contact.html"> Contact </a>
+			<a href="involved.html" id="involved"> Get Involved </a> 
+		</div>
+    </div>
+	
+	<div class="page-content">
+	<div class="content">
+		<h1> Chapters </h1>
+		<p> See our chapters that span the world. </p>
+	</div>
+	<div class="content2"> 
+		<div class="slide"> 
+		<div class="w3-content w3-display-container">
+			<img class="mySlides" src="assets/image/slideshow/founders.jpg">
+			<img class="mySlides" src="img_snowtops.jpg">
+			<img class="mySlides" src="img_mountains.jpg">
+		<div class="w3-center w3-display-bottommiddle" style="width:100%">
+		<div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
+		<div class="w3-right" onclick="plusDivs(1)">&#10095;</div>
+		<span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
+		<span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
+		<span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
+		</div>
+		</div>
+	</div>
+	</div>	
+	</div>
+
+<div class="footer">
+		<div class="footer-content"> 
+			<p> Cyber Youth Tech is an international, youth-led nonprofit organization dedicated </p>
+			<p> to empowering and cultivating the next generation of STEM and Cyber Leaders </p>
+			<p> through community, education, opportunity, and outreach. </p> 	
+		</div> 
+		<div class="footer-links">
+			<a href="join.html"> <p> Join </p> </a> 
+			<a href="about.html"> <p> About </p> </a>
+			<a href="chapters.html"> <p> Chapters </p>
+			<a href="contact.html"> <p> Contact </p> </a>
+		</div>
+		<div class="footer-social"> 
+			<a href="https://www.instagram.com/cyberyouthtech/"> <img src="assets/image/instagram.png"/> </a> 
+			<a href="https://www.facebook.com/cyberyouthtech.org"> <img src="assets/image/facebook.png"/> </a> 
+		</div>
+	</div>
+	</body>
+</html>
+	

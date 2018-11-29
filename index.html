@@ -1,113 +1,89 @@
-<!DOCTYPE HTML>
-<!--
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-	<head>
-		<title>CyberYouthTech</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <head>
+        <title>Cyber Youth Tech</title>
 		<link rel="shortcut icon" href="Logo_Transparent_Black.ico"/>
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="landing is-preload">
+        <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>  
+		<link rel="stylesheet" type="text/css" href="assets/fonts/fonts.min.css" />
+        <link href="assets/css/main-style.css" rel="stylesheet" type="text/css">
+    </head>
+	<script> 
+	$('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});</script>
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+    <body>
+	<div class="topnav">
+		<div class="topnav-left">
+			<a id="logo-name" href="index.html"> CYTECH </a>
+		</div>
+		<div class="topnav-right">
+			<a href="about.html"> About </a>
+			<a href="chapters.html"> Chapters </a>
+			<a href="contact.html"> Contact </a>
+			<a href="involved.html" id="involved"> Get Involved </a> 
+		</div>
+    </div>
+	<div class="info-box" >
+		<div class="typing"> 
+			<p> Everyone can learn to </p>
+			<h2> <a class="typewrite" data-period="2000" data-type='[ "code.", " be safe online.", "imagine.", "engineer.", "protect.", "program.","lead.","teach." ]'> <span class="wrap"></span> </a> </h2>
+		</div> 
+		<div class="mission">
+			<h3> Cyber Youth Tech is an international, youth-led nonprofit organization </h3> 
+			<h3> dedicated to empower and cultivate the next generation of STEM and Cyber Leaders </h3>
+		</div> 
+	</div> 
+	<div class="info-start">
+		<div class="info-content"> 
+			<h2> In a world becoming more dependent on technology, everyone </h2> 
+			<h2> deserves to learn how to use it. </h2>
+			<p> Cyber Youth Tech is an international youth-led nonprofit with established groups across the United </p>
+			<p> States and the United Kingdom. We are teens building a global community dedicated to help </p>
+			<p> young people and adults alike protect themselves in the cyber realm. 
+		<div id="CounterContainer"> 
+			<div id="theCount"><span class="count">5000</span>+<p>Students </p> </div> 
+			<div id="theCount"><span class="count">50</span>+<p> Members </p> </div> 
+			<div id="theCount"><span class="count">12</span> <p>Chapters</p> </div> 
+		</div>
+			<h2> We're addressing the problem by outreaching to schools and promoting </h2>
+			<h2> computer science and cyber education legislation to nurture and empower</h2>
+			<h2> students and equip them with computer science and cyber skills. </h2>
+		</div> 
+	</div>
+	<div class="footer">
+		<div class="footer-content"> 
+			<p> Cyber Youth Tech is an international, youth-led nonprofit organization dedicated </p>
+			<p> to empowering and cultivating the next generation of STEM and Cyber Leaders </p>
+			<p> through community, education, opportunity, and outreach. </p> 
+		</div> 
+		<div class="footer-links">
+			<a href="join.html"> <p> Join </p> </a> 
+			<a href="about.html"> <p> About </p> </a>
+			<a href="chapters.html"> <p> Chapters </p>
+			<a href="contact.html"> <p> Contact </p> </a>
+		</div>
+		<div class="footer-social"> 
+			<a href="https://www.instagram.com/cyberyouthtech/"> <img src="assets/image/instagram.png"/> </a> 
+			<a href="https://www.facebook.com/cyberyouthtech.org"> <img src="assets/image/facebook.png"/> </a> 
+		</div>
+	</div>
+	<!--- Scripts -->
+	<script src="assets/js/typer.js"> </script>  
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 
-				<!-- Header -->
-					<header id="header">
-						<h1><a href="index.html">CyTech</a></h1>
-						<nav id="nav">
-							<ul>
-								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Menu</span></a>
-									<div id="menu">
-										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="about.html">About</a></li>
-											<li><a href="contact.html">Contact Us</a></li>
-											<li><a href="#">More Coming Soon!</a></li>
-										</ul>
-									</div>
-								</li>
-							</ul>
-						</nav>
-					</header>
-
-				<!-- Main -->
-					<article id="main">
-						<section id="banner" style="background-color:#5A182A">
-						<div class="inner">
-							<h2>Cyber Youth Tech</h2>
-							<p> Bringing Awareness <br />
-							Creating Opportunities<br />
-							</p><a href="#one" class="more scrolly">Learn More</a>
-						</div>
-					</section>
-						<section id="one" class="wrapper style5">
-							<div class="inner">
-								<img src ="images/Logo_Transparent_Red.png" style="height: 350px; width: 350px; margin-bottom: 10px;float: left;">								
-								<h3 style="text-align:center;">Cyber Youth Tech (CyTech) has one mission:<br> 
-								<u>raise awareness about cybersecurity.</u> </h3>
-
-								<p style="text-align:center;"> 
-								Cyber Youth Tech (CyTech) is an international, youth-led nonprofit organization
-								dedicated to empowering the next generation of Science Technology Engineering, and Math 									(STEM) and Cyber leaders. We have established chapters across the United States and the 								United Kingdom that
-								work together to create a global community dedicated to helping people protect themselves in 								the cyber realm.  </p>
-								<hr>
-
-								<h3> There is a problem in STEM </h3>
-								<p> Despite being an innovate and impacting field, representation in the STEM field
-								is more than lacking. Because of the lack of diversity in this field, it loses out on a										broad participation of people that the field would not only benefit from but needs to
-								maintain its legitimacy. To address the gap of an increasing number of underserved
-								communities in the STEM field, CyTech recognizes that not only must work to increase
-								the participation of students in the STEM field, but it must work to specifically
-								help communities that are most in need well before the start of college as these moments
-								are the most crucial. 
-								</p>
-								<img src="images/blur.png" style="height:200px; width:500px;float:right;">
-								
-								<h3> Our Impact </h3>
-								<p> CyTech is actively working to impact our local communities. 
-								<div id="CounterCountainer"> 
-								<div id="theCount"><span class="count">5000</span> <p> Students </p> </div> 
-								<div id="theCount"><span class="count">50</span> <p> Members </p> </div> 
-								<div id="theCount"><span class="count">12</span> <p>Chapters World Wide </p> </div> 
-								</div>
-
-
-							</div>
-						</section>
-					</article>
-
-				<!-- Footer -->
-					<section id="cta" class="wrapper style4">
-						<div class="inner">
-							<header>
-								<h2>Cyber Youth Tech (CyTech) has one clear mission.</h2>
-								<p> Join us in our mission and help us make a change.</p>
-							</header>
-							<ul class="actions stacked">
-								<li><a href="index.html" class="button fit primary">Activate</a></li>
-								<li><a href="about.html" class="button fit">Learn More</a></li>
-							</ul>
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Scripts -->	
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    </body>
 </html>

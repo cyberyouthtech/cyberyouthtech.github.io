@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee|Bungee+Hairline|Bungee+Inline|Bungee+Outline|Bungee+Shade");
+
+body {
+    background-color: #59192b;
+	font-family: 'Proxima Nova','Rubik'; 
+	
+}
+
+.topnav {
+    overflow: hidden;
+	font-size: 17px;
+}
+
+.topnav a {
+	float: left;
+	color: #fff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+	color: white;
+}
+
+.topnav a.active {
+	color: white;
+}
+
+.topnav-right {
+	float: right;
+	padding-right: 30px;
+	font-weight: 3;
+	padding-top: 14px;
+}
+#logo-name { 
+	font-size: 30px; 
+	color: white;
+	font-family: bungee;
+	margin:0;
+	padding:0;
+	letter-spacing: 3px;
+}
+
+.topnav-left {
+	float: left; 
+	padding-left: 30px;
+}
+
+#involved {
+	border: 1.5px solid white;
+	border-radius: 100px;
+}
+
+h1 {
+    color: #fff;
+}
+
+.info-box {
+	background-image: url("../../assets/image/background.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	height: 600px;
+	width: 100%;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	color: #fff;
+}
+
+.typing {
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+	line-height: 0.3;
+	text-decoration: none;
+}
+
+.mission {
+	display: inline-block;
+	padding-top: 150px;
+	line-height: 0.5;
+}
+
+.info-start{
+	display: inline-block;
+	background-color: #4a1726;
+	position: relative;
+	height: 650px;
+	width: 100%
+}
+
+.info-content {
+	padding-top: 50px;
+	text-align: center;
+	color: #B33771;
+}
+
+#value {
+    font-size: 50px;
+}
+
+#CounterContainer {
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+
+#theCount {
+	display: inline-block;
+	border-radius: 20px;
+	margin: 10px;
+	padding-top: 50px;
+	padding-bottom: 0px;
+	height: 100px;
+	width: 150px;
+	background-color: #fff;
+	text-align: center;
+	font-size: 20;
+	line-height: 0.4;
+	font-weight: bold;
+}
+
+.footer {
+	background-color: #fff;
+	width: 99%;
+	padding: 5px;
+}
+
+.footer-content {
+	margin-left:10%;
+	display: inline-block;
+	line-height: 0.7;
+}
+
+.footer-links {
+	float: right;
+	line-height: 0.3;
+	text-align: right;
+	font-weight: 900;
+	margin-right: 10%;
+	text-decoration: none;
+}
+.footer-links a{
+	text-decoration: none;
+	color: black;
+}
+
+.footer-social {
+	margin-left:10%;
+	text-decoration: none;
+}
+.footer-social img {
+	text-decoration: none;
+	height: 20px;
+	width: 20px;
+}
